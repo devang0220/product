@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color:  #0f1111;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("logodr.jpeg");
+    background-size:cover;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top:-20px
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+.add-1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    background-color: orange;
+    justify-content: space-evenly;
+    height:40px;
+    width: 620px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #febd68;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius:4px ;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.hero-section .bgimg{
+    height: 100vh;
+    width: 100%;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display:flex;
+    color: bisque;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.hero-section{
+    background-image: url(makeup-hero.jpg);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-self:center;
+    align-items: flex-end;
+
+}
+/* .hero-msg{
+    background-color: white;
+    color: #0f1111;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+
+}
+.hero-msg a{
+    color:#007185;
+} */
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e7e8e8;
+}
+.box{
+    border:2px solid #200c00;
+    height: 550px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 20px;
+    background-color: #200e01;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 15px;
+    color: bisque;
+}
+.box-content p{
+    color: #007185;
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color:#200c00;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color:#200c00;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top:20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:#dddddd;
+}
+.foot-panel3{
+    background-color: #200c00;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .logo{
+    background-image: url("makeuplogo.jpeg");
+    background-size:cover;
+    height: 50px;
+    width: 100px;
+    justify-content: baseline;
+    
+} */
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+li{
+    padding-bottom: 50px;
+}
+ .fa{
+    font-size: 26px;
+    margin: 3px;
+    transition: .4s;
+ }
+ .checked{
+    color: #ff9f43;
+    font-size: 20px;
+ }
+ .fa:hover{
+    transform: scale(1.3);
+    transition: .6s;
+ }
+ button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding:15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: -30px;
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius: 10px;
+ }
+ .buy{
+    background-color: #ff9f43;
+ }
+ button:hover{
+    color: rgb(239, 112, 15);
+ }
+ .hero-cont{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900px;
+    font-size: 30px;
+    color: rgb(246, 179, 116);
+    outline-color: #febd68;
+    outline-width:1px;
+    text-emphasis-color: #fff;
+    outline-style: auto;
+    display: block;
+    margin-bottom:500px;
+ }
+ .para-hero{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700px;
+    font-size: 25px;
+    color: rgb(238, 200, 130);
+ }
+ .Grab{
+    text-align: center;
+    font-size: 24px;
+    color:#fff;
+    outline-width: 20px;
+    outline-color: bisque;
+    background-color:#200e01;
+    width: 80%;
+    padding:15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 300px;
+    margin-right: 200px;
+    outline-color: bisque;
+    outline-width: 1px;
+ }
